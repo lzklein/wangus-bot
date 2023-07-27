@@ -1,0 +1,2 @@
+# wangus-bot
+discord bot
