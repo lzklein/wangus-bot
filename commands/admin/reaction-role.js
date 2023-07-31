@@ -1,10 +1,9 @@
 const { SlashCommandBuilder } = require('discord.js');
 
 module.exports = {
-	// cooldown: 3,
 	data: new SlashCommandBuilder()
-		.setName('ping')
-		.setDescription('Replies with Pong!'),
+		.setName('reaction-role')
+		.setDescription('Get roles by clicking on the reaction'),
 	async execute(interaction) {
 		await interaction.reply('Pong!');
 	},

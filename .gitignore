@@ -143,7 +143,5 @@ dist
 # SvelteKit build / generate output
 .svelte-kit
 
-# config
-config.json
 
 # End of https://www.toptal.com/developers/gitignore/api/node,dotenv
